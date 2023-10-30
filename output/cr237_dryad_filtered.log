@@ -1,0 +1,30 @@
+PLINK v1.90b6.24 64-bit (6 Jun 2021)
+Options in effect:
+  --bfile cr237_dryad
+  --dog
+  --geno 0.05
+  --hwe 1e-7
+  --maf 0.05
+  --make-bed
+  --mind 0.1
+  --not-chr X,Y
+  --out output/cr237_dryad_filtered
+
+Random number seed: 1698634171
+16384 MB RAM detected; reserving 8192 MB for main workspace.
+167989 out of 173662 variants loaded from .bim file.
+237 dogs (127 males, 110 females) loaded from .fam.
+237 phenotype values loaded from .fam.
+0 dogs removed due to missing genotype data (--mind).
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 237 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+Total genotyping rate is 0.984447.
+7060 variants removed due to missing genotype data (--geno).
+--hwe: 45 variants removed due to Hardy-Weinberg exact test.
+45088 variants removed due to minor allele threshold(s)
+(--maf/--max-maf/--mac/--max-mac).
+115796 variants and 237 dogs pass filters and QC.
+Among remaining phenotypes, 98 are cases and 139 are controls.
+--make-bed to output/cr237_dryad_filtered.bed + output/cr237_dryad_filtered.bim
++ output/cr237_dryad_filtered.fam ... done.
